@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.aicp.extras.preference.ListPreference
+        android:key="just_a_list"
+        android:title="Nearly plain list"
+        android:entries="@array/color_list_test_entries"
+        android:entryValues="@array/color_list_test_values" />
+    <com.aicp.extras.preference.ColorListPreference
+        android:key="color_list"
+        android:title="ColorList"
+        android:entries="@array/color_list_test_entries"
+        android:entryValues="@array/color_list_test_values"
+        app:entryPreviews="@array/color_list_test_previews"/>
+    <com.aicp.extras.preference.ColorMatrixListPreference
+        android:key="color_Matrix"
+        android:title="Color"
+        android:entries="@array/theming_accent_entries"
+        android:entryValues="@array/theming_accent_values"
+        app:entryPreviews="@array/theming_accent_previews"
+        app:entryPreviewsLight="@array/theming_accent_previews_light"/>
+    <com.aicp.extras.preference.MasterSwitchPreference
+        android:title="test" />
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:title="color picker"
+        android:defaultValue="0xffffffff" />
+
+    <com.aicp.gear.preference.SPColorBlendPreference
+        android:title="color blend"
+        android:key="color_blend"
+        app:keyColorStart="test_color_start"
+        app:keyColorEnd="test_color_end"
+        app:keyBlendReverse="test_blend_reverse"
+        app:defaultValueColorStart="#ff0000ff"
+        app:defaultValueColorEnd="#ff00ffff"
+        app:defaultValueBlendReverse="true"
+        app:previewStartText="A"
+        app:previewBetweenText="B"
+        app:previewEndText="@string/app_name" />
+    <com.aicp.gear.preference.SPColorBlendPreference
+        android:title="color blend 2"
+        android:key="color_blend" />
+
+</PreferenceScreen>

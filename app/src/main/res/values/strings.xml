@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="config_test">@*android:string/config_icon_mask</string>
+    <string name="config_test1">@*android:string/config_radio_access_family</string>
+    <string name="default_wall">@*android:string/default_wallpaper_component</string>
+
+    <string-array name="color_list_test_entries">
+        <item>Default</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>Black or White</item>
+    </string-array>
+    <string-array name="color_list_test_values">
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="color_list_test_previews">
+        <item>0x1000001</item>
+        <item>0xff0000</item>
+        <item>0x00ff00</item>
+        <item>0x0000ff</item>
+        <item>0x1000000</item>
+    </string-array>
+
+
+    <!-- Themes -->
+    <string name="theming_title">Themes</string>
+    <string name="theming_summary">Device default design</string>
+    <string name="theming_base_title">Base theme</string>
+    <string name="theming_accent_title">Accent color</string>
+    <string name="theming_base_default">Light (default)</string>
+    <string name="theming_base_dark">Dark, light notifications</string>
+    <string name="theming_base_dark_notif">Dark</string>
+    <string name="theming_base_dark_transparent">Dark transparent</string>
+    <string name="theming_base_black">Black, light notifications</string>
+    <string name="theming_base_black_notif">Black</string>
+    <string name="theming_base_black_transparent">Black transparent</string>
+    <string name="theming_accent_default">Default</string>
+    <string name="theming_accent_amber">Amber</string>
+    <string name="theming_accent_bluelight">Blue</string>
+    <string name="theming_accent_carnation">Carnation</string>
+    <string name="theming_accent_cyan">Cyan</string>
+    <string name="theming_accent_denim">Denim</string>
+    <string name="theming_accent_gold">Gold</string>
+    <string name="theming_accent_greenlight">Green</string>
+    <string name="theming_accent_grey">Grey</string>
+    <string name="theming_accent_indigo">Indigo</string>
+    <string name="theming_accent_lime">Lime</string>
+    <string name="theming_accent_orange">Orange</string>
+    <string name="theming_accent_oxygen">Oxygen</string>
+    <string name="theming_accent_pink">Pink</string>
+    <string name="theming_accent_pixel">Pixel</string>
+    <string name="theming_accent_purple">Purple</string>
+    <string name="theming_accent_red">Red</string>
+    <string name="theming_accent_teal">Teal</string>
+    <string name="theming_accent_turquoise">Turquoise</string>
+    <string name="theming_accent_whiteblack">White or Black</string>
+    <string name="theming_accent_yellow">Yellow</string>
+
+    <string-array name="theming_accent_entries" translatable="false">
+        <item>@string/theming_accent_default</item>
+        <item>@string/theming_accent_amber</item>
+        <item>@string/theming_accent_bluelight</item>
+        <item>@string/theming_accent_carnation</item>
+        <item>@string/theming_accent_cyan</item>
+        <item>@string/theming_accent_denim</item>
+        <item>@string/theming_accent_gold</item>
+        <item>@string/theming_accent_greenlight</item>
+        <item>@string/theming_accent_grey</item>
+        <item>@string/theming_accent_indigo</item>
+        <item>@string/theming_accent_lime</item>
+        <item>@string/theming_accent_orange</item>
+        <item>@string/theming_accent_oxygen</item>
+        <item>@string/theming_accent_pink</item>
+        <item>@string/theming_accent_pixel</item>
+        <item>@string/theming_accent_purple</item>
+        <item>@string/theming_accent_red</item>
+        <item>@string/theming_accent_teal</item>
+        <item>@string/theming_accent_turquoise</item>
+        <item>@string/theming_accent_whiteblack</item>
+        <item>@string/theming_accent_yellow</item>
+    </string-array>
+
+    <string-array name="theming_accent_values" translatable="false">
+        <item>0</item> <!-- default -->
+        <item>1</item> <!-- amber -->
+        <item>4</item> <!-- blue light -->
+        <item>18</item> <!--carnation -->
+        <item>5</item> <!-- cyan -->
+        <item>6</item> <!-- denim -->
+        <item>7</item> <!-- gold -->
+        <item>2</item> <!-- green light -->
+        <item>17</item> <!-- grey -->
+        <item>20</item> <!-- indigo -->
+        <item>3</item> <!-- lime -->
+        <item>8</item> <!-- orange -->
+        <item>9</item> <!-- oxygen -->
+        <item>10</item> <!--pink -->
+        <item>11</item> <!--pixel -->
+        <item>12</item> <!--purple -->
+        <item>13</item> <!--red -->
+        <item>14</item> <!--teal -->
+        <item>15</item> <!--turquoise -->
+        <item>19</item> <!--white black -->
+        <item>16</item> <!--yellow -->
+    </string-array>
+
+
+    <string-array name="theming_accent_previews" translatable="false">
+        <item>0x1000000</item> <!-- default -->
+        <item>#ffab00</item> <!-- amber -->
+        <item>#03a9f4</item> <!-- blue light -->
+        <item>#ffa6c9</item> <!--carnation -->
+        <item>#00bcd4</item> <!-- cyan -->
+        <item>#1560BD</item> <!-- denim -->
+        <item>#CFB53B</item> <!-- gold -->
+        <item>#8bc34a</item> <!-- green light -->
+        <item>#808080</item> <!-- grey -->
+        <item>#536DFE</item> <!-- indigo -->
+        <item>#cddc39</item> <!-- lime -->
+        <item>#ff9800</item> <!-- orange -->
+        <item>#53ADEF</item> <!-- oxygen -->
+        <item>#f48fb1</item> <!--pink -->
+        <item>#3367d6</item> <!--pixel -->
+        <item>#673ab7</item> <!--purple -->
+        <item>#ff0000</item> <!--red -->
+        <item>#80cbc4</item> <!--teal -->
+        <item>#00FFFF</item> <!--turquoise -->
+        <item>#ffffff</item> <!--white black -->
+        <item>#ffeb3b</item> <!--yellow -->
+    </string-array>
+
+    <string-array name="theming_accent_previews_light" translatable="false">
+        <item>0x1000000</item> <!-- default -->
+        <item>#ffa000</item> <!-- amber -->
+        <item>#03a9f4</item> <!-- blue light -->
+        <item>#fb83b2</item> <!--carnation -->
+        <item>#00bcd4</item> <!-- cyan -->
+        <item>#1560BD</item> <!-- denim -->
+        <item>#CFB53B</item> <!-- gold -->
+        <item>#8bc34a</item> <!-- green light -->
+        <item>#808080</item> <!-- grey -->
+        <item>#536DFE</item> <!-- indigo -->
+        <item>#cddc39</item> <!-- lime -->
+        <item>#ff9800</item> <!-- orange -->
+        <item>#53ADEF</item> <!-- oxygen -->
+        <item>#e91e63</item> <!--pink -->
+        <item>#4285f4</item> <!--pixel -->
+        <item>#673ab7</item> <!--purple -->
+        <item>#ff0000</item> <!--red -->
+        <item>#008577</item> <!--teal -->
+        <item>#00C1C1</item> <!--turquoise -->
+        <item>#000000</item> <!--white black -->
+        <item>#fdd835</item> <!--yellow -->
+    </string-array>
+
+</resources>
